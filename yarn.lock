@@ -3295,6 +3295,8 @@ __metadata:
     "@salt-ds/window": "workspace:*"
     "@types/luxon": "npm:^3.4.2"
     "@types/react-window": "npm:^1.8.2"
+    ag-grid-community: "npm:^33.3.0"
+    ag-grid-react: "npm:^33.3.0"
     aria-hidden: "npm:^1.1.1"
     attr-accept: "npm:^2.0.0"
     clipboard-copy: "npm:^4.0.1"

@@ -14,6 +14,7 @@ export type {
   ListSelectHandler as ListSelectHandlerDeprecated,
 } from "./list-deprecated";
 
+export * from "./ag-grid/SaltAgGrid";
 export * from "./app-header";
 export * from "./breadcrumbs";
 export * from "./button-bar";

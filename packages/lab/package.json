@@ -23,6 +23,8 @@
     "@salt-ds/styles": "workspace:*",
     "@salt-ds/window": "workspace:*",
     "@types/react-window": "^1.8.2",
+    "ag-grid-community": "^33.3.0",
+    "ag-grid-react": "^33.3.0",
     "aria-hidden": "^1.1.1",
     "attr-accept": "^2.0.0",
     "clipboard-copy": "^4.0.1",

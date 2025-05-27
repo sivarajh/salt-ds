@@ -1,0 +1,25 @@
+---
+title: AG Grid - Usage
+template: DetailComponent
+---
+
+# Usage
+
+Import the `SaltAgGrid` component from `@salt-ds/lab`.
+
+```tsx
+import { SaltAgGrid } from '@salt-ds/lab';
+import '@salt-ds/ag-grid-theme/salt-ag-theme.css'; // Don't forget the theme
+import 'ag-grid-community/styles/ag-grid.css'; // And AG Grid's core styles
+
+function MyApp() {
+  return (
+    <div style={{ height: '600px', width: '800px' }}>
+      <SaltAgGrid />
+    </div>
+  );
+}
+```
+
+The component expects `rowData` and `columnDefs` to be provided, similar to a standard AG Grid implementation. The Salt-specific controls for search and grouping are built-in.
+The component must be sized by its parent container.
